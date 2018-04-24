@@ -14,3 +14,11 @@ https://www.w3.org/TR/css3-page/
 https://www.w3.org/TR/css-gcpm-3/
 
 https://print-css.rocks/
+
+## Other links
+
+https://wkhtmltopdf.org/
+
+http://www.fpdf.org/
+
+https://pandoc.org/
