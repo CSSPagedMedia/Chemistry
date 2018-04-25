@@ -1,0 +1,48 @@
+@page {
+    @top-right {
+        content: "Page: " counter(page) " of " counter(pages);
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    bookmark-label: content(text);
+}
+
+h1 { bookmark-level: 1; font-size: 11pt; }
+h2 { bookmark-level: 2; }
+h3 { bookmark-level: 3; }
+h4 { bookmark-level: 4; }
+h5 { bookmark-level: 5; }
+h6 { bookmark-level: 6; }
+
+
+
+.section {width: 100%;}
+
+.space10 {margin-top: 10pt;}
+
+.sectionSpace {margin-top: 10pt; margin-bottom: 10pt;}
+
+body {font-size: 10pt; font-family: Calibri;}
+
+tr {display:table-row;}
+
+th {display:table-cell; background-color: gray; text-align: left; font-size: 11pt; padding: 5pt 5pt 5pt 5pt; border: 1pt solid black;}
+
+td {display:table-cell;}
+
+.numberCell4 {padding: 5pt 5pt 5pt 5pt; vertical-align: middle; text-align:center; border: 1pt solid black;}
+
+table {width:100%;  table-layout:fixed; border-collapse:collapse;}
+
+.cell2 {vertical-align: middle;  border: 1pt solid black;  border: 1pt solid black; padding: 5pt 5pt 5pt 5pt;}
+
+sup, sub { font-size: 6pt;}
+
+td[cspan] {
+    table-column-span: attr(cspan, integer);
+}
+
+th[cspan] {
+    table-column-span: attr(cspan, integer);
+}
