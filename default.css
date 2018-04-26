@@ -46,3 +46,19 @@ td[cspan] {
 th[cspan] {
     table-column-span: attr(cspan, integer);
 }
+
+.htl{
+	background-color:yellow;
+}
+
+.txt{
+	
+	padding:10px;
+	border: 2px solid green;
+    border-radius: 25px !important;
+	
+}
+
+.black{
+	background-color:grey;
+}
